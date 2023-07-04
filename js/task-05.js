@@ -7,3 +7,8 @@ function handleInput() {
     }
     textOutput.textContent = textInput.value;
 }
+ function handleInput() {
+    
+        textOutput.textContent = textInput.value.trim() || "Anonymous";
+
+}
