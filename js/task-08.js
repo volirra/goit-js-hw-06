@@ -3,7 +3,7 @@ form.addEventListener("submit", handleSubmit);
 function handleSubmit(event) {
   event.preventDefault();
   const {
-    elements: { login, password }
+    elements: { lemail, password }
   } = event.currentTarget;
   if (email.value === "" || password.value === "") {
     return alert("Please fill in all the fields!");

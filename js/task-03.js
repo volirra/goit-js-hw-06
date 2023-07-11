@@ -13,6 +13,6 @@ const images = [
   },
 ];
 const gallery = document.querySelector(`gallery`);
-const imagesMarcup = image.map(image => `<li> <img src-"${image.url}" alt - "${image.alt}"> </li>`) .join('');
+const imagesMarcup = images.map(image => `<li> <img src-"${image.url}" alt - "${image.alt}"> </li>`).join('');
 gallery.insertAdjacentElement('beforeend', imagesMarkup);
 const pictures = document.querySelectorAll('.picture')
